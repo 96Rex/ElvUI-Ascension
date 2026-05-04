@@ -421,7 +421,7 @@ function E:SetupLayout(layout, noDataReset, noDisplayMsg)
 			--Party
 		E.db.unitframe.units.party.height = 74
 		E.db.unitframe.units.party.power.height = 13
-		E.db.unitframe.units.party.rdebuffs.font = "PT Sans Narrow"
+		E.db.unitframe.units.party.rdebuffs.font = "YaHei"
 		E.db.unitframe.units.party.width = 231
 			--Raid
 		E.db.unitframe.units.raid.growthDirection = "RIGHT_UP"
@@ -431,7 +431,7 @@ function E:SetupLayout(layout, noDataReset, noDisplayMsg)
 		E.db.unitframe.units.raid.name.position = "BOTTOMLEFT"
 		E.db.unitframe.units.raid.name.xOffset = 2
 		E.db.unitframe.units.raid.numGroups = 8
-		E.db.unitframe.units.raid.rdebuffs.font = "PT Sans Narrow"
+		E.db.unitframe.units.raid.rdebuffs.font = "YaHei"
 		E.db.unitframe.units.raid.rdebuffs.size = 30
 		E.db.unitframe.units.raid.rdebuffs.xOffset = 30
 		E.db.unitframe.units.raid.rdebuffs.yOffset = 25
@@ -440,7 +440,7 @@ function E:SetupLayout(layout, noDataReset, noDisplayMsg)
 		E.db.unitframe.units.raid.width = 92
 			--Raid40
 		E.db.unitframe.units.raid40.enable = false
-		E.db.unitframe.units.raid40.rdebuffs.font = "PT Sans Narrow"
+		E.db.unitframe.units.raid40.rdebuffs.font = "YaHei"
 
 		--[[
 		--	Layout Tweaks will be handled below.

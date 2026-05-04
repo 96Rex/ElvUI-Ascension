@@ -11,13 +11,8 @@ E.Media = {
 		BagWardrobeIcon = [[poi-transmogrifier]], -- not elvui
 	},
 	Fonts = {
-		ActionMan = M..[[Fonts\ActionMan.ttf]],
-		ContinuumMedium = M..[[Fonts\ContinuumMedium.ttf]],
-		DieDieDie = M..[[Fonts\DieDieDie.ttf]],
-		Expressway = M..[[Fonts\Expressway.ttf]],
-		Homespun = M..[[Fonts\Homespun.ttf]],
+		YaHei = M..[[Fonts\YaHei.ttf]],
 		Invisible = M..[[Fonts\Invisible.ttf]],
-		PTSansNarrow = M..[[Fonts\PTSansNarrow.ttf]]
 	},
 	Sounds = {
 		AwwCrap = M..[[Sounds\AwwCrap.ogg]],
@@ -140,12 +135,8 @@ E.Media = {
 }
 
 LSM:Register("border", "ElvUI GlowBorder", E.Media.Textures.GlowTex)
-LSM:Register("font", "Continuum Medium", E.Media.Fonts.ContinuumMedium)
-LSM:Register("font", "Die Die Die!", E.Media.Fonts.DieDieDie, LSM.LOCALE_BIT_ruRU + LSM.LOCALE_BIT_western)
-LSM:Register("font", "Action Man", E.Media.Fonts.ActionMan)
-LSM:Register("font", "Expressway", E.Media.Fonts.Expressway, LSM.LOCALE_BIT_ruRU + LSM.LOCALE_BIT_western)
-LSM:Register("font", "PT Sans Narrow", E.Media.Fonts.PTSansNarrow, LSM.LOCALE_BIT_ruRU + LSM.LOCALE_BIT_western)
-LSM:Register("font", "Homespun", E.Media.Fonts.Homespun, LSM.LOCALE_BIT_ruRU + LSM.LOCALE_BIT_western)
+LSM:Register("font", "YaHei", E.Media.Fonts.YaHei)
+LSM:Register("font", "隐藏", E.Media.Fonts.Invisible)
 LSM:Register("sound", "ElvUI Aska", E.Media.Sounds.SndIncMsg)
 LSM:Register("sound", "Awww Crap", E.Media.Sounds.AwwCrap)
 LSM:Register("sound", "BBQ Ass", E.Media.Sounds.BbqAss)

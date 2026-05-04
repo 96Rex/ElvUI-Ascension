@@ -243,9 +243,6 @@ local function FontTemplate(fs, font, fontSize, fontStyle)
 	fontSize = fontSize or E.db.general.fontSize
 	fontStyle = fontStyle or E.db.general.fontStyle
 
-	if fontStyle == "OUTLINE" and E.db.general.font == "Homespun" and (fontSize > 10 and not fs.fontSize) then
-		fontSize, fontStyle = 10, "MONOCHROMEOUTLINE"
-	end
 
 	fs:SetFont(font, fontSize, fontStyle)
 

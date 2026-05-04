@@ -202,7 +202,7 @@ function M:CreateRollButton(parent, rollType)
 	button.newbieText = data.newbieText
 
 	button.text = button:CreateFontString(nil, nil)
-	button.text:FontTemplate(E.Media.Fonts.Homespun, nil, "MONOCHROMEOUTLINE")
+	-- button.text:FontTemplate(E.Media.Fonts.Homespun, nil, "MONOCHROMEOUTLINE")
 
 	return button
 end
