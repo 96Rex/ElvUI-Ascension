@@ -202,7 +202,7 @@ function M:CreateRollButton(parent, rollType)
 	button.newbieText = data.newbieText
 
 	button.text = button:CreateFontString(nil, nil)
-	-- button.text:FontTemplate(E.Media.Fonts.Homespun, nil, "MONOCHROMEOUTLINE")
+	button.text:FontTemplate(E.Media.Fonts.YaHei, nil, "OUTLINE")
 
 	return button
 end
@@ -320,10 +320,10 @@ function M:CreateRollFrame()
 	frame.disenchantButton:Point("LEFT", frame.greedButton, "RIGHT", 0, 1)
 	frame.passButton:Point("LEFT", frame.disenchantButton, "RIGHT", 0, 2)
 
-	frame.needButton.text:Point("CENTER", -1, 4)
-	frame.greedButton.text:Point("CENTER", 1, 5)
-	frame.disenchantButton.text:Point("CENTER", 1, 4)
-	frame.passButton.text:Point("CENTER", 1, 2)
+	frame.needButton.text:Point("CENTER", 0, 3)
+	frame.greedButton.text:Point("CENTER", 0, 3)
+	frame.disenchantButton.text:Point("CENTER", 0, 3)
+	frame.passButton.text:Point("CENTER", 0, 0)
 
 	frame.bindText = frame:CreateFontString()
 	frame.bindText:Point("LEFT", frame.passButton, "RIGHT", 2, 0)
